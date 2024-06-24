@@ -1,0 +1,28 @@
+
+div{    
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+    transition: all 1s ease-in;
+}
+
+#redSquer{
+    background-color: red;   
+}
+#redSquer:hover{
+    width: 300px;  
+}
+#blueSquer{
+    background-color: blue;
+}
+#blueSquer:hover{
+    height: 300px
+}
+#greenSquer{
+    background-color: green;
+}
+#greenSquer:hover{
+    width: 300px;  
+    height: 300px
+}
