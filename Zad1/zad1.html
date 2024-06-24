@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,27 +8,44 @@
 
     <link rel="stylesheet" href="CSS/zad1.css">
 </head>
+
 <body>
-    <label for="userName">Imie:</label>
-    <input type="text" id="userName">
-    <label for="lastName">Nazwisko:</label>
-    <input type="text" id="lastName">
-    <label for="eMail">Email:</label>
-    <input type="email" id="eMail">
-    <label for="city">Wybierz miasto:</label>
-    <select name="city" id="city">
-        <option value="Krakow">Krakow</option>
-        <option value="Warszawa">Warszawa</option>
-        <option value="Gdansk">GdaNsk</option>
-    </select>
-    <div>Wybierz płeć:</div>
-    <label><input type="radio" name="plec">Męszczyzna</label>
-    <label><input type="radio" name="plec">Kobieta</label>
+    <form>
+        <div class="write">
+            <label for="userName">Imie:</label>
+            <input type="text" id="userName">
+            <br>
 
-    <label for="textArea">Wiadomość:</label>
-    <textarea name="text" id="textArea"></textarea>
+            <label for="lastName">Nazwisko:</label>
+            <input type="text" id="lastName">
+            <br>
 
-    
-    <label><input type="checkbox">Wyrażam zgodę</label>
+            <label for="eMail">Email:</label>
+            <input type="email" id="eMail">
+            <br>
+        
+        <label for="city">Wybierz miasto:</label>
+        <select name="city" id="city">
+            <option value="Krakow">Krakow</option>
+            <option value="Warszawa">Warszawa</option>
+            <option value="Gdansk">GdaNsk</option>
+        </select>
+    </div>
+        <br>
+
+        <div>Wybierz płeć:</div>
+        <label><input type="radio" name="plec">Męszczyzna</label>
+        <label><input type="radio" name="plec">Kobieta</label>
+        <br>
+        <div class="write">
+        <label for="textArea">Wiadomość:</label>
+        <textarea name="text" id="textArea"></textarea>
+    </div>
+
+
+        <label><input type="checkbox">Wyrażam zgodę</label><br>
+        <button>Send</button>
+    </form>
 </body>
+
 </html>

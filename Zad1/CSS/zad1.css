@@ -1,0 +1,46 @@
+form{
+    background-color: #213b50;
+    padding: 20px;
+    width: 95%;
+    color: #ffffff;
+}
+
+label{
+    display: block;
+}
+
+input, textarea, select{
+    background-color: #2b4a64;
+    border: none;
+    margin: 1%;
+}
+.write{
+    width: 60%;
+}
+.write > input
+{
+    width: 100%;
+}
+.write > select
+{
+    width: 100%;
+}
+.write > textarea
+{
+    width: 100%;
+}
+input:focus, textarea:focus{
+    background-color: #4e708c;
+    border: #ffffff;
+}
+
+button{
+    border: none;
+    background-color: #1ac056;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #46e881;   
+}
