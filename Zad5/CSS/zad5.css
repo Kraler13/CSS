@@ -1,0 +1,127 @@
+*{
+    font-size: 40px;
+}
+section{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header{
+    background-color: orange;
+}
+
+#asideLeft{
+    background-color: green;
+}
+
+#center{
+    background-color: blue;
+}
+
+#asideRight{
+    background-color: pink;
+}
+
+footer{
+    background-color: purple;
+}
+
+@media (min-width: 992px){
+article{
+    height: 600px;
+    width: 900px;
+}
+header{
+    height: 10%;
+    width: 100%;
+}
+section{
+    height: 80%;
+}
+#asideLeft{
+    height: 100%;
+    width: 20%;
+}
+#center{
+    height: 100%;
+    width: 60%;
+}
+#asideRight{
+    height: 100%;
+    width: 20%;
+}
+footer{
+    height: 10%;
+    width: 100%;
+}
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+    article{
+        height: 900px;
+        width: 600px;
+    }
+    header{
+        height: 10%;
+        width: 100%;
+    }
+    section{
+        height: 80%;
+    }
+    #asideLeft{
+        height: 50%;
+        width: 100%;
+        order: 3;
+    }
+    #center{
+        height: 50%;
+        width: 80%;
+        order: 1;
+    }
+    #asideRight{
+        height: 50%;
+        width: 20%;
+        order: 2;
+    }
+    footer{
+        height: 10%;
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px){
+    article{
+        height: 1200px;
+        width: 300px;
+    }
+    header{
+        height: 10%;
+        width: 100%;
+    }
+    section{
+        height: 80%;
+    }
+    #asideLeft{
+        height: 33.33%;
+        width: 100%;
+        order: 3;
+    }
+    #center{
+        height: 33.33%;
+        width: 100%;
+        order: 1;
+    }
+    #asideRight{
+        height: 33.33%;
+        width: 100%;
+        order: 2;
+    }
+    footer{
+        height: 10%;
+        width: 100%;
+    }
+}
+
